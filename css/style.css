@@ -63,10 +63,18 @@ body{
     color:#4ba5dc;
 }
 
-#swirl1, #stars{
+#swirl1, #stars, #swirl2, #stars2{
     position:absolute;
 }
 
 #stars{
     top:1000px;
+}
+
+#swirl2{
+    top:2000px;
+}
+
+#stars2{
+    top:3000px;
 }

@@ -57,7 +57,9 @@
     <div class="py-5" id="sponsor-sect">
       <div class="container text-center">
         <img src="swirl1.png" id="swirl1" alt="swirl1">
+        <img src="swirl2.png" id="swirl2" alt="swirl2">
         <img src="stars.png" id="stars" alt="stars">
+        <img src="stars.png" id="stars2" alt="stars2">
         <row>
           <column>
             <h2 class="ms_title pb-5">We would like to thank our Corporate Sponsors</h2>
@@ -320,6 +322,18 @@
           scrub:0.5,
         },
         x : -1800,
+      })
+      gsap.from("#swirl2",{
+        scrollTrigger : {
+          scrub:0.5,
+        },
+        x : 2000,
+      })
+      gsap.to("#stars2",{
+        scrollTrigger : {
+          scrub:0.5,
+        },
+        x : -800,
       })
     </script>
 
