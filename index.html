@@ -50,7 +50,7 @@
 
     <div class="jumbotron jumbotron-fluid text-center mb-0 founded-section">
       <div class="container">
-        <p>The Mount Sinai Children’s Center Foundation (CCF) was founded more than 30 years ago to support the children and families served by Mount Sinai Kravis Children’s Hospital. This year’s Benefit will provide critical support to exceptional junior physician-scientists conducting groundbreaking research in pediatric diseases; the Program for Underserved Children, caring for New York City’s low-income children by providing critical services that address both their medical and psychosocial needs; and the Child Life and Creative Arts Therapy Department, where children can be creative, cope with their hospitalization, and just be kids. Thank you for joining the CCF in our commitment to improve the health and well-being of all children in the Mount Sinai community.</p>
+        <p><span>The Mount Sinai Children’s Center Foundation (CCF) was founded more than 30 years ago to support the children and families served by Mount Sinai Kravis Children’s Hospital.</span> This year’s Benefit will provide critical support to exceptional junior physician-scientists conducting groundbreaking research in pediatric diseases; the Program for Underserved Children, caring for New York City’s low-income children by providing critical services that address both their medical and psychosocial needs; and the Child Life and Creative Arts Therapy Department, where children can be creative, cope with their hospitalization, and just be kids.</p> <p><span>Thank you for joining the CCF in our commitment to improve the health and well-being of all children in the Mount Sinai community.</span></p>
       </div>
     </div>
 
@@ -64,24 +64,24 @@
           <column>
             <h2 class="ms_title pb-5">We would like to thank our Corporate Sponsors</h2>
             <ul class="list-unstyled text-white py-3">
-              <li class="ms_title">Corporate Sponsors</li>
-              <div class="row align-items-center">
-                <div class="col-lg-4">
-                  <img class="img-fluid py-5" src="altusgroup.png" alt="Altus Group">
+              <li class="ms_title">Platinum Sponsors</li>
+              <div class="row align-items-center justify-content-md-center">
+                <div class="col-lg-3">
+                  <img class="img-fluid py-4" src="altusgroup.png" alt="Altus Group">
                 </div>
-                <div class="col-lg-4">
-                  <img class="img-fluid py-5" src="friedfrank.png" alt="Fried Frank">
+                <div class="col-lg-3">
+                  <img class="img-fluid py-4" src="friedfrank.png" alt="Fried Frank">
                 </div>
-                <div class="col-lg-4">
-                  <img class="img-fluid py-5" src="paulweiss.png" alt="Paul Weiss">
+                <div class="col-lg-3">
+                  <img class="img-fluid py-4" src="paulweiss.png" alt="Paul Weiss">
                 </div>
               </div>
               <div class="row align-items-center justify-content-md-center">
-                <div class="col-lg-5">
-                  <img class="img-fluid py-5" src="simpsonthacher.png" alt="Simpson Thacher">
+                <div class="col-lg-4">
+                  <img class="img-fluid py-4" src="simpsonthacher.png" alt="Simpson Thacher">
                 </div>
-                <div class="col-lg-5">
-                  <img class="img-fluid py-5" src="slrcapitalpartners.png" alt="SLR Capital Partners">
+                <div class="col-lg-4">
+                  <img class="img-fluid py-4" src="slrcapitalpartners.png" alt="SLR Capital Partners">
                 </div>
               </div>
             </ul>
@@ -231,7 +231,8 @@
               <li>Elizabeth and Jonathan Lewinsohn</li>
               <li>Jennifer Deppe Parker and Stan Parker</li>
               <li>Jill and Mark Rachesky</li>
-              <li>Lisa and Gregg Rechler</li>
+              <li>Lisa Rechler</li>
+              <li>Gregg Rechler</li>
               <li>Pamela and Stuart Rothenberg</li>
               <li>Carolyn and Marc Rowan</li>
               <li>Jody and Ira Schwartz</li>
@@ -313,27 +314,32 @@
     <script>
       gsap.from("#swirl1",{
         scrollTrigger : {
+          trigger: "#sponsor-sect",
           scrub:0.5,
         },
-        x : 1200,
+        x : 800,
       })
       gsap.from("#stars",{
         scrollTrigger : {
-          scrub:0.5,
-        },
-        x : -1800,
-      })
-      gsap.from("#swirl2",{
-        scrollTrigger : {
-          scrub:0.5,
-        },
-        x : 2000,
-      })
-      gsap.to("#stars2",{
-        scrollTrigger : {
+          trigger: "#sponsor-sect",
           scrub:0.5,
         },
         x : -800,
+      })
+      gsap.from("#swirl2",{
+        scrollTrigger : {
+          trigger: "#sponsor-sect",
+          scrub:0.5,
+        },
+        x : 1800,
+      })
+      gsap.from("#stars2",{
+        scrollTrigger : {
+          trigger: "#stars2",
+          scrub:0.5,
+          end: "+=2000"
+        },
+        x : -1580,
       })
     </script>
 

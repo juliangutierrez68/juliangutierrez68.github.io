@@ -35,6 +35,9 @@ body{
     color:#21409a;
     font-size:1.3rem;
 }
+.founded-section p span{
+    color:#4ba5dc;
+}
 #sponsor-sect{
     position:relative;
     overflow:hidden;
