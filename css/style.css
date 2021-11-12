@@ -23,6 +23,14 @@ body{
     font-weight: bold;
 }
 
+.streaming{
+    background-color:#ec1c24;
+    font-size:1.3rem;
+}
+.staticstarsflip{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .caption-section{
     background-color: #4ba6dd;
 }
