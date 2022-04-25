@@ -87,6 +87,7 @@ html {
 }
 
 #ceremony{
+  height:auto;
   color:#ffffff;
   background: rgb(54,60,117);
   background: linear-gradient(90deg, rgba(54,60,117,1) 0%, rgba(209,46,137,1) 51%, rgba(24,175,238,1) 100%); 
@@ -167,7 +168,9 @@ html {
 
   /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  #ceremony{
+    height:100vh !important;
+  }
 }
 
   /* XX-Large devices (larger desktops, 1400px and up) */
