@@ -7,7 +7,7 @@ html {
 }
 
 .navbar{
-  background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.75),rgba(239, 239, 239, 0));
+  background-image:linear-gradient(180deg,rgba(0, 0, 0, 1),rgba(0, 0, 0, .6),rgba(0, 0, 0, 0));
   /*text-shadow: 2px 2px #363636;*/
 }
 
@@ -16,6 +16,9 @@ html {
   text-transform:uppercase;
 }
 
+.logo-text{
+  font-size: .6rem;
+}
 
 .vidheader {
     position: relative;
@@ -84,14 +87,46 @@ html {
 #ceremony{
   color:#ffffff;
   background: rgb(54,60,117);
-  background: linear-gradient(90deg, rgba(54,60,117,1) 0%, rgba(209,46,137,1) 51%, rgba(24,175,238,1) 100%); 
+  background: linear-gradient(90deg, rgba(54,60,117,1) 0%, rgb(209, 46, 137) 51%, rgba(24,175,238,1) 100%); 
 }
 
 .prevnext{
-  color:#ffffff;
-  background: rgb(54,60,117);
-  background: linear-gradient(90deg, rgba(54,60,117,1) 0%, rgba(209,46,137,1) 51%, rgba(24,175,238,1) 100%);   
+  text-align:center;
 }
+
+.prevnext a{
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:600;
+}
+
+
+.previous{
+  background-color:#18afee;
+  border-right:2px solid #0a3e55;
+  transition-duration:.5s;
+}
+
+.previous:hover{
+  background-color:#d12e89;
+  border-right:2px solid #0a3e55;
+}
+
+.next{
+  background-color:#18afee;
+  transition-duration:.5s;
+}
+
+.next:hover{
+  background-color:#d12e89;
+}
+
+
+.footer{
+  background-color:#1C116A;
+  color:#ffffff;
+}
+
 
 
   
@@ -144,4 +179,38 @@ html {
   
   .dropdown-toggle {
     outline: 0;
+  }
+
+
+  @media (min-width: 436px) {
+    .logo-text{
+      font-size:.9rem;
+    }
+  } 
+  
+    /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .logo-text{
+      font-size:1.25rem;
+    }
+  }
+  
+    /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  
+  }
+  
+    /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  
+  }
+  
+    /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+  }
+  
+    /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+  
   }
