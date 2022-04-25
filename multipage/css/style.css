@@ -87,7 +87,7 @@ html {
 }
 
 #ceremony{
-  height:auto;
+  height:100vh;
   color:#ffffff;
   background: rgb(54,60,117);
   background: linear-gradient(90deg, rgba(54,60,117,1) 0%, rgba(209,46,137,1) 51%, rgba(24,175,238,1) 100%); 
