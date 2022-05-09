@@ -2,13 +2,6 @@ $( document ).ready(function() {
     $('.navbar-collapse a').click(function() {
       $(".navbar-collapse").collapse('hide');
       });
-
-      $('body').on('click touchstart', function () {
-        const videoElement = document.getElementById('videoElement');
-        if (!videoElement.playing) {
-            videoElement.play();
-        }
-});
   });
 
 //Get the button
