@@ -228,6 +228,16 @@ h1,h2,h3,h4,h5,h6,p,a {
   font-size:1rem;
 }
 
+#programdownload{
+  font-size:.85rem;
+  color:#ffffff;
+}
+
+#programdownload a{
+  color:#ffffff;
+  font-weight:bold;
+}
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .text-white {
     color:#ffffff;
